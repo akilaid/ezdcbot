@@ -98,7 +98,7 @@ async def ez(ctx, arg1, arg2):
         await ctx.send(response)
 @client.command()
 async def ezhelp(ctx):
-    embed=discord.Embed(title="ezzbn Server Bot",url="https://github.com/akilaid/ezdcbot", description="This modafakin bot can be used to change map and gametype of ezzbn cod4 server!", color=discord.Color.red())
+    embed=discord.Embed(title="ezzbn Server Bot",url="https://github.com/akilaid/ezdcbot", description="This bot can be used to change map and gametype of ezzbn cod4 server!", color=discord.Color.red())
     embed.set_thumbnail(url="https://i.imgur.com/nWC5t73.jpg")
     embed.set_author(name="Notification", url="https://github.com/akilaid/ezdcbot", icon_url="https://i.imgur.com/Q0bnBjE.png")
     embed.add_field(name="Administrator Role", value="> • You need **ezAdmin** role to control server using this bot!", inline=False)
@@ -107,11 +107,11 @@ async def ezhelp(ctx):
     embed.add_field(name="Changing gametype", value="> • Use **!ez gametype <gametype>** to change gametype\n > ∙ ex: !ez gametype sd ", inline=False)
     embed.add_field(name="Availabe maps", value="> Shipment - mp_shipment \n> Ratroom V1 - mp_ratroom_v1\n> Killhouse - mp_killhouse\n> Nuketown - mp_nuketown", inline=True)
     embed.add_field(name="Available gametypes", value="> Team Deathmatch - war\n> Free-for-all - dm\n> Search & Destroy - sd", inline=True)
-    embed.set_footer(text="Developed by _RiKuWa © 2021")
+    embed.set_footer(text="Developed by _Akila © 2021")
     await ctx.send(embed=embed)
 
 @client.event
 async def on_ready():
-    await client.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name='නෝටි දර්ශන'))
+    await client.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name='You'))
     print('ez Bot started succesfully!')
 client.run(token)
