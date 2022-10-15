@@ -12,7 +12,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://serverspace.io/wp-content/uploads/2021/04/create-a-discord-bot-600x276.jpg)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
