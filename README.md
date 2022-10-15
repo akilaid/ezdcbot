@@ -12,7 +12,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="python discord automation.png" alt="Logo" width="80" height="80">
+<img src="dc.png" alt="screenshot">
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
