@@ -9,10 +9,7 @@
 <h3 align="center">ezdc bot</h3>
 </div>
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
 
-<img src="dc.png" alt="screenshot">
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
